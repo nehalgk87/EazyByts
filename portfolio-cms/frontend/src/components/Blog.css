@@ -1,0 +1,68 @@
+/* Blog.css */
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.blog-form input,
+.blog-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+.blog-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.blog-list {
+  padding: 16px;
+}
+
+.blog-list-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.blog-list-item h3 {
+  margin: 0 0 6px;
+}
+
+.blog-list-item p {
+  margin: 0 0 10px;
+}
+
+.blog-list-item button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.blog-list-item button:first-of-type {
+  background-color: #1976d2;
+  color: white;
+}
+
+.blog-list-item button:last-of-type {
+  background-color: #e53935;
+  color: white;
+}
